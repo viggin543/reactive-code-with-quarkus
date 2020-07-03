@@ -1,4 +1,4 @@
-# code-with-quarkus project
+# Cloud native java vs golang
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
@@ -33,3 +33,12 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 You can then execute your native executable with: `./build/code-with-quarkus-1.0.0-SNAPSHOT-runner`
 
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/gradle-tooling#building-a-native-executable.
+
+## the golang service is located in the golang_service directory
+```
+# to run:
+cd golang_service
+go build
+./main
+
+```
