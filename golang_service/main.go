@@ -16,7 +16,7 @@ type Fruit struct {
 var con *sql.DB
 
 func main() {
-    db, err := sql.Open("mysql", "root:password@/payments")
+    db, err := sql.Open("mysql", "root:password@tcp(host.docker.internal:3306)/payments")
     if err != nil {
         panic("failed to open a mysql connection")
     }
